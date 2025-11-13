@@ -56,6 +56,12 @@ mkdir -p "$ZSH_CUSTOM/plugins"
 [[ ! -d "$ZSH_CUSTOM/plugins/zsh-syntax-highlighting" ]] &&
   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$ZSH_CUSTOM/plugins/zsh-syntax-highlighting"
 
+# --- fzf-git.sh ---
+if [ ! -d "$HOME/fzf-git.sh" ]; then
+  echo "🔍 Installing fzf-git.sh..."
+  git clone https://github.com/junegunn/fzf-git.sh.git "$HOME/fzf-git.sh"
+fi
+
 # --- NVM ---
 if [ ! -d "$HOME/.nvm" ]; then
   echo "📦 Installing NVM..."
