@@ -1,0 +1,101 @@
+# Mole Cleanup Preview - 2025-12-19 15:07:16
+#
+# How to protect files:
+# 1. Copy any path below to ~/.config/mole/whitelist
+# 2. Run: mo clean --whitelist
+#
+# Example:
+#   /Users/*/Library/Caches/com.example.app
+#
+
+
+=== User essentials ===
+/Users/orli/Library/Caches  # 14.30GB (73 items)
+/Users/orli/Library/Logs  # 15.8MB (23 items)
+/Users/orli/.Trash  # 867.3MB (61 items)
+
+=== Finder metadata ===
+
+=== macOS system caches ===
+/Users/orli/Library/Saved Application State  # 172KB (12 items)
+/Users/orli/Library/Caches/CloudKit  # 14.8MB (8 items)
+/Users/orli/Library/Suggestions  # 10.4MB (17 items)
+
+=== Sandboxed app caches ===
+
+=== Browsers ===
+/Users/orli/Library/Caches/com.apple.Safari/WebKitCache  # 4KB
+/Users/orli/Library/Caches/Google/Chrome/Default  # 1.47GB
+/Users/orli/Library/Application Support/Google/Chrome/Default/GPUCache  # 9.8MB (6 items)
+/Users/orli/Library/Caches/company.thebrowser.Browser  # 29.1MB (5 items)
+/Users/orli/Library/Caches/Firefox/Profiles  # 154.3MB
+/Users/orli/Library/Caches/zen/Profiles  # 216.8MB
+
+=== Cloud storage ===
+
+=== Office applications ===
+
+=== Developer tools ===
+/Users/orli/.oh-my-zsh/cache/grep-alias  # 4KB
+/Users/orli/Library/Caches/Google/AndroidStudio2025.2.1  # 167.4MB (9 items)
+/Users/orli/Library/Caches/CocoaPods/Pods  # 1.36GB
+/Users/orli/.android/cache  # 3.2MB (42 items)
+/Users/orli/Library/Developer/Xcode/UserData/IB Support/Simulator Devices  # 52.5MB
+/Users/orli/.gradle/caches  # 7.93GB (7 items)
+/Users/orli/.gradle/daemon  # 42.7MB (3 items)
+/Users/orli/Library/Caches/SentryCrash  # 20KB (5 items)
+/Users/orli/Library/Caches/com.crashlytics.data/app.remixdesign.LaunchOS  # 180KB
+/Users/orli/Library/Caches/Homebrew  # 3.45GB (7 items)
+
+=== Development applications ===
+/Users/orli/Library/Caches/com.apple.dt.Xcode  # 2.5MB (4 items)
+/Users/orli/Library/Developer/Xcode/DerivedData  # 8.17GB (6 items)
+/Users/orli/Library/Application Support/Code/logs  # 2.7MB (10 items)
+/Users/orli/Library/Application Support/Code/Cache  # 431.2MB (2 items)
+/Users/orli/Library/Application Support/Code/CachedData  # 108.3MB (10 items)
+/Users/orli/Library/Application Support/discord/Cache/Cache_Data  # 1.16GB
+/Users/orli/Library/Application Support/Slack/Cache  # 930.2MB (2 items)
+/Users/orli/Library/Caches/us.zoom.xos  # 160KB (3 items)
+/Users/orli/Library/Caches/ru.keepcoder.Telegram  # 2.6MB (3 items)
+/Users/orli/Library/Caches/com.raycast.macos  # 11.0MB (6 items)
+/Users/orli  # 436KB (7 items)
+/Users/orli/.lesshst  # 4KB
+/Users/orli/Library/Caches/notion.id  # 80KB (2 items)
+
+=== Virtual machine tools ===
+
+=== Application Support ===
+
+=== Uninstalled app data ===
+/Users/orli/Library/Caches/org.wireshark.Wireshark  # 84KB
+/Users/orli/Library/Caches/io.branch.network.cache  # 884KB
+/Users/orli/Library/Caches/io.staruml.staruml  # 80KB
+/Users/orli/Library/Caches/io.staruml.staruml.ShipIt  # 8KB
+/Users/orli/Library/WebKit/com.mschrage.fig  # 532KB
+/Users/orli/Library/WebKit/org.wireshark.Wireshark  # 696KB
+/Users/orli/Library/HTTPStorages/com.balsamiq.wireframes  # 56KB
+/Users/orli/Library/HTTPStorages/com.garmin.renu.service  # 232KB
+/Users/orli/Library/HTTPStorages/com.garmin.renu.service.binarycookies  # 4KB
+/Users/orli/Library/HTTPStorages/com.google.GoogleUpdater  # 2.1MB
+/Users/orli/Library/HTTPStorages/com.google.Keystone  # 4.0MB
+/Users/orli/Library/HTTPStorages/com.microsoft.autoupdate.fba  # 1.0MB
+/Users/orli/Library/HTTPStorages/com.microsoft.autoupdate2  # 68KB
+/Users/orli/Library/HTTPStorages/com.mschrage.fig.binarycookies  # 4KB
+/Users/orli/Library/HTTPStorages/com.spotify.installer  # 56KB
+/Users/orli/Library/HTTPStorages/org.sparkle-project.DownloaderService  # 552KB
+/Users/orli/Library/HTTPStorages/org.wireshark.Wireshark  # 104KB
+/Users/orli/Library/HTTPStorages/io.staruml.staruml  # 56KB
+
+=== Apple Silicon updates ===
+
+=== iOS device backups ===
+
+=== Time Machine incomplete backups ===
+
+# ============================================
+# Summary
+# ============================================
+# Potential cleanup: 44.14GB
+# Items: 382
+# Categories: 55
+# Protected by whitelist: 231

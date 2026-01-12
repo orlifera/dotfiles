@@ -7,4 +7,6 @@ sbar.bar({
   color = colors.bar.bg,
   padding_right = 2,
   padding_left = 2,
+  display = "all",
+  y_offset = 0,
 })
