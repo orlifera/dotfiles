@@ -28,17 +28,6 @@ if [ ! -d "$HOME/.oh-my-zsh" ]; then
   RUNZSH=no CHSH=no KEEP_ZSHRC=yes sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
-# --- Symlinks ---
-echo "🔗 Linking dotfiles..."
-ln -sf "$HOME/dotfiles/.zshrc" "$HOME/.zshrc"
-ln -sf "$HOME/dotfiles/.p10k.zsh" "$HOME/.p10k.zsh"
-
-# Symlink .config directory if it exists in dotfiles
-if [ -d "$HOME/dotfiles/.config" ]; then
-  echo "🔗 Linking .config directory..."
-  ln -sf "$HOME/dotfiles/.config" "$HOME/.config"
-fi
-
 # --- Powerlevel10k (if not installed via Brew) ---
 if [ ! -d "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k" ]; then
   echo "🎨 Installing Powerlevel10k..."
